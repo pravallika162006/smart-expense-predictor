@@ -32,7 +32,7 @@ function Register() {
     try {
 
       await axios.post(
-        "https://smart-expense-predictor.onrender.com/api/users/register",
+        "https://smart-expense-predictor.onrender.com/api/auth/register",
         {
           name,
           email,
