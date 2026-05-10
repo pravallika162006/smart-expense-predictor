@@ -59,7 +59,7 @@ function Dashboard() {
         localStorage.getItem("token");
 
       const res = await axios.get(
-        "http://localhost:5000/api/expenses",
+        "https://smart-expense-predictor.onrender.com/api/expenses",
         {
           headers: {
             Authorization:
@@ -150,7 +150,7 @@ function Dashboard() {
         localStorage.getItem("token");
 
       await axios.post(
-        "http://localhost:5000/api/expenses",
+        "https://smart-expense-predictor.onrender.com/api/expenses",
         {
           amount,
           category: finalCategory,
@@ -189,7 +189,7 @@ function Dashboard() {
         localStorage.getItem("token");
 
       await axios.delete(
-        `http://localhost:5000/api/expenses/${id}`,
+        `https://smart-expense-predictor.onrender.com/api/expenses/${id}`,
         {
           headers: {
             Authorization:
