@@ -214,4 +214,4 @@ Developed an AI-powered financial analytics platform using MERN stack and machin
 
 **Maturi Venkata Sai Pravallika**
 
-GitHub: [https://github.com/pravalli](https://github.com/pravalli)
+
