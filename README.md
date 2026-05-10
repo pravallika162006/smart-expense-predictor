@@ -168,19 +168,28 @@ JWT_SECRET=your_secret_key
 
 ## Login Page
 
-(Add Screenshot Here)
+<img width="1917" height="947" alt="image" src="https://github.com/user-attachments/assets/cf1a76d1-b084-49ea-b3ac-878976689a1e" />
+
 
 ---
 
 ## Dashboard
 
-(Add Screenshot Here)
+<img width="1600" height="898" alt="image" src="https://github.com/user-attachments/assets/635cef2f-813d-4ca0-ba1c-185d3764091f" />
+
+<img width="1600" height="898" alt="image" src="https://github.com/user-attachments/assets/018d4252-18d9-4c44-a61d-57ec0426cdcb" />
+
+<img width="1600" height="898" alt="image" src="https://github.com/user-attachments/assets/0955c5cc-41a8-43d3-8e8a-61a2e625b818" />
+
+
+
 
 ---
 
 ## Analytics Section
 
-(Add Screenshot Here)
+<img width="1600" height="889" alt="image" src="https://github.com/user-attachments/assets/73f7a43a-6617-48d2-95be-4f101a5a14bf" />
+
 
 ---
 
