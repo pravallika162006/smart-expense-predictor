@@ -1,1 +1,92 @@
 @import "tailwindcss";
+
+@theme {
+  --color-bg-primary: #0F1117;
+  --color-bg-card: #1A1D29;
+  --color-accent-purple: #7C4DFF;
+  --color-accent-blue: #00C2FF;
+  --color-text-main: #FFFFFF;
+  --color-text-secondary: #A0A3BD;
+  --color-border: #2A2E3F;
+}
+
+:root {
+  --bg-primary: #0F1117;
+  --bg-card: #1A1D29;
+  --accent-purple: #7C4DFF;
+  --accent-blue: #00C2FF;
+  --text-main: #FFFFFF;
+  --text-secondary: #A0A3BD;
+  --border-color: #2A2E3F;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-main);
+  background-image: 
+    radial-gradient(circle at top left, #7C4DFF22, transparent 30%),
+    radial-gradient(circle at bottom right, #00C2FF22, transparent 30%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-glow {
+  padding: 12px 22px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #7C4DFF, #00C2FF);
+  font-weight: 600;
+  transition: 0.3s;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-glow:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(124, 77, 255, 0.5);
+}
+
+.input-modern {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  color: white;
+  border-radius: 12px;
+  padding: 12px;
+  outline: none;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.input-modern:focus {
+  border-color: var(--accent-purple);
+  box-shadow: 0 0 10px rgba(124, 77, 255, 0.3);
+}
+
+.input-modern::placeholder {
+  color: #8A8FA3;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #7C4DFF, #00C2FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
